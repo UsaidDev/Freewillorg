@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2E3192">
+    <meta name="author" content="FreeWill Advanced Centre for Mental Health and Rehabilitation">
 
     <!-- ===== SEO: Title & Meta ===== -->
     <title>FreeWill Advanced Centre for Mental Health & Rehabilitation | Tirur, Kerala</title>
-    <meta name="description" content="Multidisciplinary child development & rehabilitation centre in Tirur since 2015. Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Special Education & Autism support. Book an assessment today.">
-    <meta name="keywords" content="child development centre Tirur, autism therapy Tirur, speech therapy Tirur, occupational therapy Kerala, special education Tirur, FreeWill Advanced Centre">
+    <meta name="description" content="FreeWill Advanced Centre in Tirur, Kerala provides child development, mental health and rehabilitation services including occupational therapy, speech therapy, physiotherapy, behavioural therapy, special education and autism support.">
+    <!-- Google does not use the keywords meta tag for rankings; omitted intentionally. -->
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://freewillorg.com/">
 
     <!-- ===== SEO: Open Graph / Social Sharing ===== -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="FreeWill Advanced Centre for Mental Health & Rehabilitation | Tirur, Kerala">
-    <meta property="og:description" content="Multidisciplinary child development & rehabilitation centre in Tirur since 2015. Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Special Education & Autism support.">
-    <meta property="og:image" content="https://freewillorg.com/assets/logo-1.svg">
+    <meta property="og:description" content="FreeWill Advanced Centre in Tirur, Kerala provides child development, mental health and rehabilitation services including occupational therapy, speech therapy, physiotherapy, behavioural therapy, special education and autism support.">
+    <meta property="og:image" content="https://freewillorg.com/assets/og-image.jpg">
+    <meta property="og:image:alt" content="FreeWill Advanced Centre for Mental Health and Rehabilitation in Tirur, Kerala">
+    <meta property="og:site_name" content="FreeWill Advanced Centre for Mental Health and Rehabilitation">
+    <meta property="og:locale" content="en_IN">
     <meta property="og:url" content="https://freewillorg.com/">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FreeWill Advanced Centre for Mental Health & Rehabilitation | Tirur, Kerala">
+    <meta name="twitter:description" content="Child development, mental health and rehabilitation services in Tirur, Kerala, including occupational therapy, speech therapy, physiotherapy, behavioural therapy and special education.">
+    <meta name="twitter:image" content="https://freewillorg.com/assets/og-image.jpg">
 
     <link rel="icon" href="assets/icon.png" type="image/png">
 
+    <link rel="preload" as="image" href="assets/kid-desk.png">
     <link rel="stylesheet" href="style.css">
 
     <!-- ===== SEO: LocalBusiness Structured Data ===== -->
@@ -28,9 +37,16 @@
     {
       "@context": "https://schema.org",
       "@type": "MedicalClinic",
+      "@id": "https://freewillorg.com/#medicalclinic",
       "name": "FreeWill Advanced Centre for Mental Health and Rehabilitation",
+      "url": "https://freewillorg.com/",
+      "logo": "https://freewillorg.com/assets/logo-1.svg",
       "image": "https://freewillorg.com/assets/logo-1.svg",
-      "telephone": ["+919562989090", "+919562199090"],
+      "telephone": [
+        "+919562989090",
+        "+919562199090"
+      ],
+      "foundingDate": "2015",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Near Railway Station, Near Mini Civil Station, Near Raihan Eye Hospital",
@@ -38,13 +54,23 @@
         "addressRegion": "Kerala",
         "addressCountry": "IN"
       },
-      "url": "https://freewillorg.com/",
-      "foundingDate": "2015",
-      "medicalSpecialty": ["Autism", "Speech Therapy", "Occupational Therapy", "Physiotherapy", "Behavioral Therapy", "Special Education"]
+      "medicalSpecialty": [
+        "Autism",
+        "Speech Therapy",
+        "Occupational Therapy",
+        "Physiotherapy",
+        "Behavioral Therapy",
+        "Special Education"
+      ]
     }
     </script>
 </head>
 <body>
+    <noscript>
+        <p style="padding:1rem;text-align:center;">
+            JavaScript is disabled. You can still browse our services and contact FreeWill Advanced Centre by phone.
+        </p>
+    </noscript>
 
     
 
@@ -55,7 +81,7 @@
         <section id="hero">
             <header>
                 <!-- ----------NAVIGATION_BAR---------- -->
-                <nav>
+                <nav aria-label="Primary navigation">
                     <div class="navCont">
                         <div class="logo">
                             <img src="assets/logo-1.svg" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo" class="headerLogo" >
@@ -63,23 +89,23 @@
                         
                         <div class="links">
                             <a href="#about" class="link">About</a>
-                            <a href="#services" class="link">Service</a>
+                            <a href="#services" class="link">Services</a>
                             <a href="#team" class="link">Team</a>
-                            <a href="#programmes" class="link">Programme</a>
+                            <a href="#programmes" class="link">Programmes</a>
                             <a href="#gallery" class="link">Gallery</a>
-                            <button class="btn appnmntSimpleBtn linkBtn " onClick="document.getElementById('appointment').scrollIntoView();">
-                                <img src="assets/call2.png" alt="Book Appointment" >
+                            <button type="button" aria-label="Book an appointment" class="btn appnmntSimpleBtn linkBtn " onClick="document.getElementById('appointment').scrollIntoView();">
+                                <img src="assets/call2.png" alt="Book Appointment" loading="lazy" decoding="async" >
                                 <p>Book an Appointment</p>
                             </button>
                         </div>
                         
-                        <button class="btn appnmntSimpleBtn headerBtn " onClick="document.getElementById('appointment').scrollIntoView();">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
+                        <button type="button" aria-label="Book an appointment" class="btn appnmntSimpleBtn headerBtn " onClick="document.getElementById('appointment').scrollIntoView();">
+                            <img src="assets/callcalling.png" alt="Book Appointment" loading="lazy" decoding="async" >
                             <p>Book an Appointment</p>
                         </button>
                         
                         <div class="menu">
-                            <img class="toggImg" src="assets/menu.svg" alt="Open navigation menu">
+                            <img class="toggImg" src="assets/menu.svg" alt="Open navigation menu" width="24" height="24">
                         </div>
 
                         
@@ -95,10 +121,9 @@
                         <img src="assets/logo-1.svg" alt="FreeWill Advanced Centre logo" height="100%">
                     </div>
                     
-                    <p class="title primaryText heroTitle">
-                        Advance Centre For Mental
-                        Health And Rehabilitation
-                    </p>
+                    <h1 class="title primaryText heroTitle">
+                        Advanced Centre for Mental Health and Rehabilitation in Tirur, Kerala
+                    </h1>
                     
                     <p class="para primaryNavyText heroPara">
                         Empowering Lives, Transforming Minds:
@@ -106,7 +131,7 @@
                     
                     <div class="buttons heroButtons">
                         <button class="btn primaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();" style="background-color: #2E3192;">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
+                            <img src="assets/callcalling.png" alt="Book Appointment" loading="lazy" decoding="async" >
                             <p class="para">Book an Appointment</p>
                         </button>
                         <a href="#about" class="primaryNavyText para">About FreeWill</a>
@@ -119,7 +144,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonialCont">
                                         <div class="testimonialPhoto" style="background-image: url(assets/test2.png);" role="img" aria-label="Photo of Ajitha, parent testimonial">
-                                            <!-- <img src="assets/My project (18).png" alt="photo" > -->
+                                            <!-- <img src="assets/My project (18).png" alt="photo" loading="lazy" decoding="async" > -->
                                         </div>
                                         <div class="testimonialDetails">
                                             <p class="name primaryNavyText titleBold">Ajitha</p>
@@ -140,7 +165,7 @@
                                 <div class="swiper-slide">
                                     <div class="testimonialCont">
                                         <div class="testimonialPhoto" style="background-image: url(assets/test1.png);" role="img" aria-label="Photo of Geetha K, parent testimonial">
-                                            <!-- <img src="assets/My project (18).png" alt="photo" > -->
+                                            <!-- <img src="assets/My project (18).png" alt="photo" loading="lazy" decoding="async" > -->
                                         </div>
                                         <div class="testimonialDetails">
                                             <p class="name primaryNavyText titleBold">Geetha K</p>
@@ -190,14 +215,14 @@
     <section id="about">
 
         <div class="aboutContent content">
-            <p class="title primaryText">About <span class="titleBold">Freewill</span></p>
-            <p class="para">| Advanced Center for Mental Health and Rehabilitation</p>
+            <h2 class="title primaryText">About <span class="titleBold">FreeWill</span></h2>
+            <p class="para">| Advanced Centre for Mental Health and Rehabilitation</p>
 
             <div class="aboutMain">
                 
                 <div class="aboutChild1">
                     <p class="para aboutChild1Content">
-                        At <span class="primaryText paraBold">FREEWILL</span> Advanced Center, we believe in the power of <span class="primaryText">compassion</span> 
+                        At <span class="primaryText paraBold">FreeWill</span> Advanced Center, we believe in the power of <span class="primaryText">compassion</span> 
                         and <span class="primaryText">expertise</span> to create positive change in people's lives. 
                         Our <span class="primaryText">specialized team</span> of clinical psychologists, pediatric physiotherapists, psychiatrists, and other professionals work together 
                         to offer <span class="primaryText">exceptional care</span> for emotional and psychological issues in children. We also provide <span class="primaryText">counseling</span> for learning difficulties 
@@ -208,7 +233,7 @@
                     
                     <div class="buttons aboutButtons">
                         <button class="btn primaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
+                            <img src="assets/callcalling.png" alt="Book Appointment" loading="lazy" decoding="async" >
                             <p class="para">Book an Appointment</p>
                         </button>
                         <a href="#team" class="primaryText para">See Our Team</a>
@@ -226,15 +251,15 @@
     <section id="services">
 
         <div class="servicesContent content">
-            <p class="title primaryText">Our <span class="titleBold">Services</span></p>
-            <p class="para">| All you need under one shade!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Services</span></h2>
+            <p class="para">| Comprehensive care under one roof.</p>
 
             <div class="servicesCardContainer">
                 
                 <div class="servicesCard">
                     <div class="child1" style="background-image: url(assets/services1.png);" role="img" aria-label="Child Development Unit"></div>
                     <div class="child2">
-                        <p class="name "><span class="titleBold">Child Development</span> Unit </p>
+                        <h3 class="name"><span class="titleBold">Child Development</span> Unit</h3>
                         <p class="para ">Nurturing Potential, Shaping Futures: Child Development Unit</p>
                     </div>
                 </div>
@@ -242,7 +267,7 @@
                 <div class="servicesCard">
                     <div class="child1" style="background-image: url(assets/services2.png);" role="img" aria-label="Adolescence and Youth Mental Health Unit"></div>
                     <div class="child2">
-                        <p class="name "><span class="titleBold">Adolescence and Youth Mental Health</span> Unit </p>
+                        <h3 class="name"><span class="titleBold">Adolescence and Youth Mental Health</span> Unit</h3>
                         <p class="para ">Empowering Minds, Embracing Futures: Adolescence & Youth Mental Health Unit</p>
                     </div>
                 </div>
@@ -251,7 +276,7 @@
                 <div class="servicesCard">
                     <div class="child1" style="background-image: url(assets/services5.png);" role="img" aria-label="Adult Mental Health Unit"></div>
                     <div class="child2">
-                        <p class="name "><span class="titleBold">Adult Mental Health</span> Unit </p>
+                        <h3 class="name"><span class="titleBold">Adult Mental Health</span> Unit</h3>
                         <p class="para ">Embracing Wellness, Empowering Lives: Adult Mental Health Unit for Lasting Transformation</p>
                     </div>
                 </div>
@@ -259,7 +284,7 @@
                 <div class="servicesCard">
                     <div class="child1" style="background-image: url(assets/services3.png);" role="img" aria-label="Occupational Therapy"></div>
                     <div class="child2">
-                        <p class="name "><span class="titleBold">Occupatioanal</span> Therapy</p>
+                        <h3 class="name"><span class="titleBold">Occupational</span> Therapy</h3>
                         <p class="para ">Unlocking Potential, Restoring Independence: Occupational Therapy for Brighter Lives</p>
                     </div>
                 </div>
@@ -267,7 +292,7 @@
                 <div class="servicesCard">
                     <div class="child1" style="background-image: url(assets/services4.png);" role="img" aria-label="Speech and Language Therapy"></div>
                     <div class="child2">
-                        <p class="name"><span class="titleBold">Speech and Language</span> Therapy</p>
+                        <h3 class="name"><span class="titleBold">Speech and Language</span> Therapy</h3>
                         <p class="para ">Finding Voices, Expressing Potential: Speech and Language Therapy for Communication Excellence</p>
                     </div>
                 </div>
@@ -279,7 +304,7 @@
                         <p class="name"><span class="titleBold">Other Outreach</span> Programmes</p>
                         <ul>
                             <li class="para">School and Community Programmes</li>
-                            <li class="para">Finishing School Porgramme</li>
+                            <li class="para">Finishing School Programme</li>
                             <li class="para">Enhancement</li>
                             <li class="para">Premarital Workshop</li>
                             <li class="para">Positive Parenting Workshop</li>
@@ -292,7 +317,7 @@
 
             <div class="buttons">
                 <button class="btn primaryBtn appnmntSimpleBtn servicesBtn"  onClick="document.getElementById('appointment').scrollIntoView();">
-                    <img src="assets/callcalling.png" alt="Book Appointment" >
+                    <img src="assets/callcalling.png" alt="Book Appointment" loading="lazy" decoding="async" >
                     <p class="para">Book an Appointment</p>
                 </button>
                 <a href="#about" class="primaryText para">About FreeWill</a>
@@ -307,8 +332,8 @@
     <!-- ------------TEAM_SECTION------------ -->
     <section id="team">
         <div class="teamContent content">
-            <p class="title primaryText">Our <span class="titleBold">Team</span></p>
-            <p class="para">| The legends behind the result!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Team</span></h2>
+            <p class="para">| Our multidisciplinary team</p>
 
 
             <div class="swiper-container-wrapper">
@@ -338,9 +363,9 @@
                         </div>
                         
                         <div class="swiper-slide" >
-                            <div class="teamMember" style="background-image: url(assets/team3.png);" role="img" aria-label="Riswana P, Case co-ordinator">
+                            <div class="teamMember" style="background-image: url(assets/team3.png);" role="img" aria-label="Riswana P, Case Coordinator">
                                 <p class="name secondaryText"><span class="paraBold">Riswana</span> P</p>
-                                <p class="namePara titleBold secondaryText">Case co-ordinator</p>
+                                <p class="namePara titleBold secondaryText">Case Coordinator</p>
                             </div>
                         </div>
                         
@@ -411,7 +436,7 @@
                             <div class="teamMember" style="background-image: url(assets/team12.png);" role="img" aria-label="Sahla Kunhapputty, Consultant Psychologist">
                                 <p class="name secondaryText"><span class="paraBold">Sahla</span> Kunhapputty</p>
                                 <p class="namePara titleBold secondaryText">Consultant Psychologist</p>
-                                <p class="nameDesig secondaryText">Expert in Behavioural Modification, Individual counselling,  Parental counselling,professional Training.</p>
+                                <p class="nameDesig secondaryText">Expert in Behavioural Modification, Individual counselling,  Parental counselling,Professional Training.</p>
 
                             </div>
                         </div>
@@ -419,21 +444,21 @@
                         <div class="swiper-slide" >
                             <div class="teamMember" style="background-image: url(assets/team16.png);" role="img" aria-label="Ummul Nisba AP, Clinical Psychologist">
                                 <p class="name secondaryText">Ummul <span class="paraBold">Nisba</span> AP</p>
-                                <p class="namePara titleBold secondaryText">Cliniacal Psychologist</p>
+                                <p class="namePara titleBold secondaryText">Clinical Psychologist</p>
                             </div>
                         </div>
                         
                         <div class="swiper-slide" >
                             <div class="teamMember" style="background-image: url(assets/team13.png);" role="img" aria-label="Labeeba VM, Audiologist and speech language pathologist">
                                 <p class="name secondaryText"><span class="paraBold">Labeeba</span> VM</p>
-                                <p class="namePara titleBold secondaryText">Audiologist & speech language pathologist</p>
+                                <p class="namePara titleBold secondaryText">Audiologist & Speech-Language Pathologist</p>
                             </div>
                         </div>
                         
                         <div class="swiper-slide" >
                             <div class="teamMember" style="background-image: url(assets/team14.png);" role="img" aria-label="Shahana, Audiologist and speech language pathologist">
                                 <p class="name secondaryText"><span class="paraBold">Shahana</span></p>
-                                <p class="namePara titleBold secondaryText">Audiologist & speech language pathologist</p>
+                                <p class="namePara titleBold secondaryText">Audiologist & Speech-Language Pathologist</p>
                             </div>
                         </div>
 
@@ -473,18 +498,18 @@
     <!-- ------------PROGRAMMES_SECTION------------ -->
     <section id="programmes">
         <div class="programmesCont content">
-            <p class="title primaryText">Our <span class="titleBold">Programmes</span></p>
-            <p class="para">| Programs that Inspire, Benefit and Result!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Programmes</span></h2>
+            <p class="para">| Programmes that support growth and wellbeing.</p>
 
             <div class="mainChild">
                 <div class="programme1 programme">
 
                     <div class="child1">
-                        <img src="assets/programmes2.jpg" alt="Children at Play School program for special needs at FreeWill Advanced Centre">
+                        <img src="assets/programmes2.jpg" alt="Children at Play School program for special needs at FreeWill Advanced Centre" loading="lazy" decoding="async">
                     </div>
 
                     <div class="child2">
-                        <p class="title" style="color: white;"><span style="color: black;">Play</span> School</p>
+                        <h3 class="title" style="color: white;"><span style="color: black;">Play</span> School</h3>
                         <p class="para">
                             Welcome to our Playschool program, a nurturing haven designed exclusively for children with special needs. At our center, 
                             we recognize and celebrate the uniqueness of every child, fostering an inclusive environment where they can flourish. Our 
@@ -508,11 +533,11 @@
                 <div class="programme2 programme">
 
                     <div class="child1">
-                        <img src="assets/programmes1.jpg" alt="Happy School mental health program for students in Tirur Municipality">
+                        <img src="assets/programmes1.jpg" alt="Happy School mental health program for students in Tirur Municipality" loading="lazy" decoding="async">
                     </div>
 
                     <div class="child2">
-                        <p class="title" style="color: white;"><span style="color: black;">Happy</span> School</p>
+                        <h3 class="title" style="color: white;"><span style="color: black;">Happy</span> School</h3>
                         <p class="para">
                             Welcome to "Happy School," our transformative Mental Health and Rehabilitation Program tailored for school students in 
                             Tirur Municipality. With a rising prevalence of stress, anxiety, and depression among students, exacerbated by the challenges 
@@ -520,7 +545,7 @@
                         </p> 
                         <p class="para">
                             Freewill Advanced Centre for Mental Health and Rehabilitation is committed to empowering the next generation to thrive. 
-                            Through evidence-based interventions and personalized care, our envision improved academic performance and a healthier 
+                            Through evidence-based interventions and personalized care, we envision improved academic performance and a healthier 
                             school environment. Join us on this journey of fostering resilience and well-being, making a positive impact on the lives 
                             of our future leaders.
                         </p>
@@ -542,8 +567,8 @@
     <section id="gallery">
 
         <div class="galleryCont content">
-            <p class="title primaryText">Our <span class="titleBold">Gallery</span></p>
-            <p class="para">| Ride through the memories!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Gallery</span></h2>
+            <p class="para">| A look inside FreeWill.</p>
 
             <div class="swiper-container-wrapper-2">
 
@@ -640,28 +665,28 @@
     <!-- ----------APPOINTMENT_SECTION---------- -->
     <section id="appointment">
         <div class="content appointmentCont">
-            <p class="title primaryText">Book Your <span class="titleBold">Appointment</span></p>
-            <p class="para">| Lets talk and fix it!</p>
+            <h2 class="title primaryText">Book Your <span class="titleBold">Appointment</span></h2>
+            <p class="para">| Let's talk and see how we can help.</p>
 
-            <form class="form" id="appointment" action="https://formsubmit.co/freewillfoundationkerala@gmail.com" method="POST">
+            <form class="form" id="appointmentForm" aria-label="Book an appointment" action="https://formsubmit.co/freewillfoundationkerala@gmail.com" method="POST">
 
-                <input type="hidden" name="_next" value="https://fancy-monstera-5ebce6.netlify.app/thankyou.html">
+                <input type="hidden" name="_next" value="https://freewillorg.com/thankyou.html">
                 <input type="hidden" name="_captcha" value="false">
                 
                 <div class="form-group primaryText para">
                     <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
                 </div>
                 
                 <div class="form-group primaryText para">
                     <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" name="fullName" required>
+                    <input type="text" id="fullName" name="fullName" autocomplete="name" required>
                 </div>
                 
                 <div class="child-form">
                     <div class="child-form-group primaryText para">
                         <label for="phoneNumber">Phone Number</label>
-                        <input type="number" id="phoneNumber" name="phoneNumber" required>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" inputmode="tel" autocomplete="tel" required>
                     </div>
                     <div class="child-form-group primaryText para">
                         <label for="date">Appointment Date</label>
@@ -669,7 +694,7 @@
                     </div>
                 </div>
 
-                <input class="btn" type="submit">
+                <input class="btn" type="submit" value="Request Appointment">
             </form> 
         </div>
     </section>
@@ -677,7 +702,7 @@
     <!-- ----------FOOTER---------- -->
     <footer>
         <div class="footerLogo">
-            <img src="assets/logoZ.png" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo">
+            <img src="assets/logoZ.png" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo" loading="lazy" decoding="async">
         </div>
 
         <!-- ===== SEO: NAP (Name, Address, Phone) text block ===== -->
@@ -686,15 +711,15 @@
             <a href="tel:+919562989090" style="color:inherit;">9562989090</a> / <a href="tel:+919562199090" style="color:inherit;">9562199090</a> &middot; Est. 2015
         </p>
 
-        <nav>
+        <nav aria-label="Footer navigation">
             <a href="#about" class="link">About</a>
-            <a href="#services" class="link">Service</a>
+            <a href="#services" class="link">Services</a>
             <a href="#team" class="link">Team</a>
-            <a href="#programmes" class="link">Programme</a>
+            <a href="#programmes" class="link">Programmes</a>
             <a href="#gallery" class="link">Gallery</a>           
         </nav>
         <button class="btn secondaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();">
-            <img src="assets/callcallimgblack.png" alt="Book Appointment" >
+            <img src="assets/callcallimgblack.png" alt="Book Appointment" loading="lazy" decoding="async" >
             <p class="para">Book an Appointment</p>
         </button>
     </footer>

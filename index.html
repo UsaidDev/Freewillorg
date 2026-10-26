@@ -5,116 +5,409 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ===== SEO: Title & Meta ===== -->
-    <title>FreeWill Advanced Centre for Mental Health & Rehabilitation | Tirur, Kerala</title>
-    <meta name="description" content="Multidisciplinary child development & rehabilitation centre in Tirur since 2015. Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Special Education & Autism support. Book an assessment today.">
-    <meta name="keywords" content="child development centre Tirur, autism therapy Tirur, speech therapy Tirur, occupational therapy Kerala, special education Tirur, FreeWill Advanced Centre">
-    <meta name="robots" content="index, follow">
+    <title>Child Development &amp; Mental Health Centre in Tirur | FreeWill</title>
+    <meta name="description" content="FreeWill Advanced Centre, Tirur: speech therapy, occupational therapy, physiotherapy, behavioural therapy, special education and counselling for children and families since 2015.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
     <link rel="canonical" href="https://freewillorg.com/">
+    <meta name="theme-color" content="#2E3192">
+    <meta name="geo.region" content="IN-KL">
+    <meta name="geo.placename" content="Tirur, Malappuram, Kerala">
 
     <!-- ===== SEO: Open Graph / Social Sharing ===== -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FreeWill Advanced Centre for Mental Health & Rehabilitation | Tirur, Kerala">
-    <meta property="og:description" content="Multidisciplinary child development & rehabilitation centre in Tirur since 2015. Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Special Education & Autism support.">
-    <meta property="og:image" content="https://freewillorg.com/assets/logo-1.svg">
+    <meta property="og:site_name" content="FreeWill Advanced Centre for Mental Health &amp; Rehabilitation">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:title" content="Child Development &amp; Mental Health Centre in Tirur | FreeWill">
+    <meta property="og:description" content="Speech therapy, occupational therapy, physiotherapy, behavioural therapy, special education and counselling in Tirur, Malappuram. Book an assessment today.">
     <meta property="og:url" content="https://freewillorg.com/">
+    <meta property="og:image" content="https://freewillorg.com/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="FreeWill team assessing a child at a learning assessment camp in Tirur">
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Child Development &amp; Mental Health Centre in Tirur | FreeWill">
+    <meta name="twitter:description" content="Speech therapy, occupational therapy, physiotherapy, behavioural therapy, special education and counselling in Tirur, Malappuram.">
+    <meta name="twitter:image" content="https://freewillorg.com/assets/og-image.jpg">
 
     <link rel="icon" href="assets/icon.png" type="image/png">
 
+    <!-- fonts: preconnect + link instead of a CSS @import, so they start loading sooner -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap">
+    <link rel="preload" as="image" href="assets/kid-desk.png">
+
     <link rel="stylesheet" href="style.css">
 
-    <!-- ===== SEO: LocalBusiness Structured Data ===== -->
+    <!-- ===== SEO: MedicalClinic Structured Data (add openingHoursSpecification once hours are confirmed) ===== -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "@id": "https://freewillorg.com/#clinic",
+  "name": "FreeWill Advanced Centre for Mental Health and Rehabilitation",
+  "alternateName": "FreeWill",
+  "description": "Multidisciplinary child development, mental health and rehabilitation centre in Tirur, Malappuram, Kerala.",
+  "url": "https://freewillorg.com/",
+  "logo": "https://freewillorg.com/assets/logo-1.svg",
+  "image": "https://freewillorg.com/assets/og-image.jpg",
+  "telephone": [
+    "+919562989090",
+    "+919562199090"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Near Railway Station, Near Mini Civil Station, Near Raihan Eye Hospital",
+    "addressLocality": "Tirur",
+    "addressRegion": "Kerala",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
     {
-      "@context": "https://schema.org",
-      "@type": "MedicalClinic",
-      "name": "FreeWill Advanced Centre for Mental Health and Rehabilitation",
-      "image": "https://freewillorg.com/assets/logo-1.svg",
-      "telephone": ["+919562989090", "+919562199090"],
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Near Railway Station, Near Mini Civil Station, Near Raihan Eye Hospital",
-        "addressLocality": "Tirur",
-        "addressRegion": "Kerala",
-        "addressCountry": "IN"
-      },
-      "url": "https://freewillorg.com/",
-      "foundingDate": "2015",
-      "medicalSpecialty": ["Autism", "Speech Therapy", "Occupational Therapy", "Physiotherapy", "Behavioral Therapy", "Special Education"]
+      "@type": "City",
+      "name": "Tirur"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "Malappuram"
+    },
+    {
+      "@type": "State",
+      "name": "Kerala"
     }
+  ],
+  "foundingDate": "2015",
+  "medicalSpecialty": [
+    "Pediatric",
+    "Psychiatric",
+    "SpeechPathology",
+    "PhysicalTherapy"
+  ],
+  "availableService": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Occupational Therapy",
+      "url": "https://freewillorg.com/services/occupational-therapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Speech Therapy",
+      "url": "https://freewillorg.com/services/speech-therapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Physiotherapy",
+      "url": "https://freewillorg.com/services/physiotherapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Developmental Integration Therapy",
+      "url": "https://freewillorg.com/services/developmental-integration-therapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Behavioral Therapy",
+      "url": "https://freewillorg.com/services/behavioral-therapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Remedial Therapy",
+      "url": "https://freewillorg.com/services/remedial-therapy.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Special Education",
+      "url": "https://freewillorg.com/services/special-education.html"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "IQ Assessment & Counselling",
+      "url": "https://freewillorg.com/services/iq-assessment-counselling.html"
+    }
+  ],
+  "knowsAbout": [
+    "Autism",
+    "ADHD",
+    "Speech delay",
+    "Learning disabilities",
+    "Developmental delay",
+    "Child mental health"
+  ]
+}
+    </script>
+    <!-- ===== SEO: WebSite Structured Data ===== -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://freewillorg.com/#website",
+  "url": "https://freewillorg.com/",
+  "name": "FreeWill Advanced Centre for Mental Health and Rehabilitation",
+  "publisher": {
+    "@id": "https://freewillorg.com/#clinic"
+  },
+  "inLanguage": "en-IN"
+}
+    </script>
+    <!-- ===== SEO: FAQ Structured Data ===== -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "My child is not speaking yet. Should I be concerned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every child develops at their own pace, but delayed speech can sometimes indicate an underlying developmental difficulty. An early assessment can help identify the reason and guide appropriate intervention."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I take my child for a developmental assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you notice delays in speech, movement, learning, attention, social interaction, play or daily activities, it is better to seek an assessment early rather than wait."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does my child need therapy if they have a developmental delay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Therapy may help your child develop important skills and become more independent. The type and frequency of therapy depend on the child's individual needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the early signs of autism?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Possible signs include limited eye contact, delayed speech, reduced response to name, repetitive behaviors, difficulty with social interaction, unusual sensory responses or limited interest in social play. An assessment is needed for proper understanding."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can autism be treated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Autism is a neurodevelopmental condition, not an illness that can simply be \"cured.\" However, early and individualized intervention can help children develop communication, social, behavioral, learning and daily living skills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My child understands everything but is not speaking. What should I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Good understanding is encouraging, but delayed expressive speech still deserves attention. A speech and developmental assessment can help identify your child's communication needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My child is very active and cannot sit or concentrate. Is it ADHD?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "High activity levels or difficulty concentrating do not automatically mean ADHD. A proper developmental assessment is needed to understand the cause."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My child has difficulty writing, holding a pencil or using scissors. Can Occupational Therapy help?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Occupational Therapy can work on fine motor skills, hand strength, coordination, visual-motor skills, handwriting and other skills needed for school and daily activities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "My child has difficulty reading and writing. What can I do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Learning difficulties can have different causes. Assessment can help identify the child's specific difficulties, after which remedial therapy or special education can provide targeted support."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does my child need Speech Therapy only if they cannot speak?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Speech Therapy can also help with language understanding, pronunciation, fluency, social communication, voice and other communication difficulties."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I know which therapy my child needs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You do not have to decide this yourself. A professional assessment can help identify your child's strengths, difficulties and appropriate therapy needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can my child receive more than one type of therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Some children benefit from a combination of therapies such as Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Remedial Therapy or Special Education."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is early intervention really important?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Identifying developmental difficulties early allows appropriate support to begin sooner and gives the child more opportunities to develop important skills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often does my child need therapy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Therapy frequency depends on the child's needs, goals, age, condition and progress. The therapist will recommend an individualized schedule after assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will parents be involved in the therapy process?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Parent involvement is an important part of successful intervention. Therapists can guide parents on activities and strategies that can be continued at home."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long will my child's therapy take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no fixed duration. Progress depends on the child's condition, individual needs, consistency of therapy and home support. Goals are reviewed regularly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can therapy help my child become more independent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Therapy can focus on practical skills such as dressing, feeding, writing, communication, play, learning, mobility and other daily activities according to the child's needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I bring for my child's first assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bring any previous medical or therapy reports, school records or assessment reports if available. Most importantly, share your concerns and observations about your child's development."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get an assessment even if my child has not been diagnosed with a condition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You do not need to have a diagnosis before seeking an assessment. Developmental concerns themselves are a valid reason to seek professional guidance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get child development and rehabilitation services in Tirur?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Freewill Advanced Centre for Mental Health & Rehabilitation provides multidisciplinary child development and rehabilitation services, including Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Remedial Therapy and Special Education."
+      }
+    }
+  ]
+}
     </script>
 </head>
 <body>
 
     
 
+    <!-- ----------NAVIGATION_BAR---------- -->
+    <header class="siteHeader">
+        <nav class="navCont" aria-label="Main">
+            <a class="logo" href="#hero" aria-label="FreeWill home">
+                <img src="assets/logo-1.svg" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo" class="headerLogo">
+            </a>
+
+            <div class="links" id="navLinks">
+                <a href="#about" class="link">About</a>
+
+                <div class="navDrop">
+                    <a href="#services" class="link navDropToggle">
+                        Services
+                        <svg class="navChevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                    </a>
+                    <div class="navDropMenu">
+                            <a class="navDropItem" href="services/occupational-therapy.html">Occupational Therapy</a>
+                            <a class="navDropItem" href="services/speech-therapy.html">Speech Therapy</a>
+                            <a class="navDropItem" href="services/physiotherapy.html">Physiotherapy</a>
+                            <a class="navDropItem" href="services/developmental-integration-therapy.html">Developmental Integration Therapy</a>
+                            <a class="navDropItem" href="services/behavioral-therapy.html">Behavioral Therapy</a>
+                            <a class="navDropItem" href="services/remedial-therapy.html">Remedial Therapy</a>
+                            <a class="navDropItem" href="services/special-education.html">Special Education</a>
+                            <a class="navDropItem" href="services/iq-assessment-counselling.html">IQ Assessment &amp; Counselling</a>
+                        <a class="navDropAll" href="#services">View all services</a>
+                    </div>
+                </div>
+
+                <a href="#team" class="link">Team</a>
+                <a href="#programmes" class="link">Programmes</a>
+                <a href="#gallery" class="link">Gallery</a>
+                <a href="#faq" class="link">FAQ</a>
+                <a href="#contact" class="link">Contact</a>
+
+                <div class="navMobileActions">
+                    <a class="navMobileCall" href="tel:+919562989090"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Call 95629 89090</a>
+                    <a class="navMobileBook" href="#appointment">Book an Appointment</a>
+                </div>
+            </div>
+
+            <a class="headerCall" href="tel:+919562989090" aria-label="Call FreeWill on 95629 89090">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                95629 89090
+            </a>
+
+            <a class="btn appnmntSimpleBtn headerBtn" href="#appointment">
+                <img src="assets/callcalling.png" alt="">
+                <p>Book an Appointment</p>
+            </a>
+
+            <button class="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+        <div class="navBackdrop" hidden></div>
+    </header>
+
     <main>
-        
 
         <!-- ------------HERO_SECTION------------ -->
         <section id="hero">
-            <header>
-                <!-- ----------NAVIGATION_BAR---------- -->
-                <nav>
-                    <div class="navCont">
-                        <div class="logo">
-                            <img src="assets/logo-1.svg" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo" class="headerLogo" >
-                        </div>
-                        
-                        <div class="links">
-                            <a href="#about" class="link">About</a>
-                            <a href="#services" class="link">Service</a>
-                            <a href="#team" class="link">Team</a>
-                            <a href="#programmes" class="link">Programme</a>
-                            <a href="#gallery" class="link">Gallery</a>
-                            <button class="btn appnmntSimpleBtn linkBtn " onClick="document.getElementById('appointment').scrollIntoView();">
-                                <img src="assets/call2.png" alt="Book Appointment" >
-                                <p>Book an Appointment</p>
-                            </button>
-                        </div>
-                        
-                        <button class="btn appnmntSimpleBtn headerBtn " onClick="document.getElementById('appointment').scrollIntoView();">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
+
+
+            <div class="heroInner">
+
+                <div class="heroText">
+                    <p class="heroEyebrow">FreeWill Advanced Centre for Mental Health &amp; Rehabilitation &middot; Since 2015</p>
+
+                    <h1 class="heroTitle">Child Development &amp; Mental Health Centre in Tirur</h1>
+
+                    <p class="heroPara">Speech therapy, occupational therapy, physiotherapy, behavioural therapy and special education under one roof, with a team that works alongside parents.</p>
+
+                    <div class="heroActions">
+                        <a class="btn primaryBtn appnmntSimpleBtn heroBook" href="#appointment">
+                            <img src="assets/callcalling.png" alt="">
                             <p>Book an Appointment</p>
-                        </button>
-                        
-                        <div class="menu">
-                            <img class="toggImg" src="assets/menu.svg" alt="Open navigation menu">
-                        </div>
-
-                        
+                        </a>
+                        <a class="heroCall" href="tel:+919562989090">or call 95629 89090</a>
                     </div>
-                </nav>
-            </header>
 
-
-            <div class="heroContent">
-                <div class="heroCont">
-                    
-                    <div class="heroLogo">
-                        <img src="assets/logo-1.svg" alt="FreeWill Advanced Centre logo" height="100%">
-                    </div>
-                    
-                    <p class="title primaryText heroTitle">
-                        Advance Centre For Mental
-                        Health And Rehabilitation
-                    </p>
-                    
-                    <p class="para primaryNavyText heroPara">
-                        Empowering Lives, Transforming Minds:
-                    </p>
-                    
-                    <div class="buttons heroButtons">
-                        <button class="btn primaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();" style="background-color: #2E3192;">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
-                            <p class="para">Book an Appointment</p>
-                        </button>
-                        <a href="#about" class="primaryNavyText para">About FreeWill</a>
-                    </div>
-                
-                    <div class="testimonial">
-                        <div class="swiper" id="swiper-1">
-                            <div class="swiper-wrapper">
+                    <div class="heroReviews">
+                        <p class="heroReviewsLabel">What parents say</p>
+                        <div class="testimonial">
+                            <div class="swiper" id="swiper-1">
+                                <div class="swiper-wrapper">
                                 
                                 <div class="swiper-slide">
                                     <div class="testimonialCont">
@@ -130,9 +423,9 @@
                                                 <img src="assets/star-coloured.svg" alt="">
                                                 <img src="assets/star-not-colored.svg" alt="">
                                             </div>
-                                            <p class="testimonialPara primaryNavyText para">
-                                                “I am too much satisfied about service of Freewill, because there is lot of improvement in my child's behaviour”
-                                            </p>
+                                            <blockquote class="testimonialPara primaryNavyText para">
+                                                “I am very satisfied with the services provided by FreeWill. We have noticed a significant improvement in our child's behaviour since starting the programme. The team is supportive, patient, and dedicated to helping children develop essential skills. I sincerely appreciate the care and guidance provided by FreeWill.”
+                                            </blockquote>
                                         </div>
                                     </div>
                                 </div>
@@ -151,27 +444,42 @@
                                                 <img src="assets/star-coloured.svg" alt="">
                                                 <img src="assets/star-not-colored.svg" alt="">
                                             </div>
-                                            <p class="testimonialPara primaryNavyText para">
-                                                “FreeWill's compassion and dedication exceeded our expectations. 
-                                                They've brought remarkable progress and positive change to our family. 
-                                                Grateful beyond words.”
-                                            </p>
+                                            <blockquote class="testimonialPara primaryNavyText para">
+                                               “FreeWill's compassionate approach and dedicated care have exceeded our expectations. We have seen positive progress in our child's development and overall well-being. The team's continuous support and commitment have made a meaningful difference to our family. We are truly grateful for their care and guidance.”
+                                            </blockquote>
                                         </div>
                                     </div>
                                 </div>
-                                
-                                
-                                
+
+                                <!-- ADD A NEW REVIEW: copy this block, use the person's real words, name and photo (with their permission), and remove the comment markers.
+                                <div class="swiper-slide">
+                                    <div class="testimonialCont">
+                                        <div class="testimonialPhoto" style="background-image: url(assets/REVIEWER_PHOTO.png);" role="img" aria-label="Photo of REVIEWER NAME, parent testimonial"></div>
+                                        <div class="testimonialDetails">
+                                            <p class="name primaryNavyText titleBold">REVIEWER NAME</p>
+                                            <div class="testimonialStars" role="img" aria-label="5 out of 5 stars">
+                                                <img src="assets/star-coloured.svg" alt="">
+                                                <img src="assets/star-coloured.svg" alt="">
+                                                <img src="assets/star-coloured.svg" alt="">
+                                                <img src="assets/star-coloured.svg" alt="">
+                                                <img src="assets/star-coloured.svg" alt="">
+                                            </div>
+                                            <blockquote class="testimonialPara primaryNavyText para">
+                                                “REVIEW TEXT”
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                                -->
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
-                <div class="heroImg " >
-                    <img src="assets/kid-desk.png" alt="Child engaged in a developmental therapy activity at FreeWill Advanced Centre">
+                <div class="heroImg">
+                    <img src="assets/kid-desk.png" alt="Calm child sitting cross-legged, representing child mental health and development care at FreeWill, Tirur" fetchpriority="high">
                 </div>
-
 
             </div>
 
@@ -190,32 +498,48 @@
     <section id="about">
 
         <div class="aboutContent content">
-            <p class="title primaryText">About <span class="titleBold">Freewill</span></p>
-            <p class="para">| Advanced Center for Mental Health and Rehabilitation</p>
+            <h2 class="title primaryText">About <span class="titleBold">FreeWill</span></h2>
+            <p class="para">| Advanced Centre for Mental Health and Rehabilitation, Tirur</p>
 
-            <div class="aboutMain">
-                
-                <div class="aboutChild1">
-                    <p class="para aboutChild1Content">
-                        At <span class="primaryText paraBold">FREEWILL</span> Advanced Center, we believe in the power of <span class="primaryText">compassion</span> 
-                        and <span class="primaryText">expertise</span> to create positive change in people's lives. 
-                        Our <span class="primaryText">specialized team</span> of clinical psychologists, pediatric physiotherapists, psychiatrists, and other professionals work together 
-                        to offer <span class="primaryText">exceptional care</span> for emotional and psychological issues in children. We also provide <span class="primaryText">counseling</span> for learning difficulties 
-                        and address developmental disorders like autism and mental challenges with utmost <span class="primaryText">dedication</span> and <span class="primaryText">understanding</span>. With a focus on 
-                        personalized treatment plans and comprehensive assessments, we strive to improve the quality of life and overall well-being of 
-                        our clients. 
-                    </p>
-                    
-                    <div class="buttons aboutButtons">
-                        <button class="btn primaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();">
-                            <img src="assets/callcalling.png" alt="Book Appointment" >
-                            <p class="para">Book an Appointment</p>
-                        </button>
-                        <a href="#team" class="primaryText para">See Our Team</a>
+            <div class="aboutGrid">
+
+                <div class="aboutText">
+                    <p class="aboutLead">FreeWill is a multidisciplinary centre in Tirur, Malappuram, caring for children's emotional, developmental and learning needs, and supporting their families along the way.</p>
+
+                    <p class="aboutPara">Our clinical psychologists, paediatric physiotherapists, psychiatrists, therapists and special educators work as one team. We support children with autism, learning difficulties and developmental delays, and offer counselling for children, adolescents, adults and parents.</p>
+
+                    <p class="aboutPara">Every child starts with a careful assessment and a personalised plan, and progress is reviewed with parents. Families from Tirur and across Malappuram district come to us for
+                        <a href="services/speech-therapy.html">speech therapy</a>,
+                        <a href="services/occupational-therapy.html">occupational therapy</a>,
+                        <a href="services/behavioral-therapy.html">behavioural therapy</a>,
+                        <a href="services/special-education.html">special education</a> and
+                        <a href="services/iq-assessment-counselling.html">psychological assessment and counselling</a>.</p>
+
+                    <dl class="aboutFacts">
+                        <div>
+                            <dt>Since</dt>
+                            <dd>2015</dd>
+                        </div>
+                        <div>
+                            <dt>Services</dt>
+                            <dd>8</dd>
+                        </div>
+                        <div>
+                            <dt>Team members</dt>
+                            <dd>16</dd>
+                        </div>
+                    </dl>
+
+                    <div class="aboutActions">
+                        <a class="progBtn" href="#appointment">Book an appointment</a>
+                        <a class="progCall" href="#team">Meet our team</a>
                     </div>
                 </div>
 
-                <div class="aboutChild2"></div>
+                <figure class="aboutPhoto">
+                    <img src="assets/gallery-onam-celebration.jpg" alt="Children in traditional dress around a pookalam during Onam celebrations at FreeWill, Tirur" loading="lazy" width="1000" height="666">
+                    <figcaption>Onam celebrations at FreeWill</figcaption>
+                </figure>
 
             </div>
         </div>
@@ -226,67 +550,174 @@
     <section id="services">
 
         <div class="servicesContent content">
-            <p class="title primaryText">Our <span class="titleBold">Services</span></p>
-            <p class="para">| All you need under one shade!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Services</span></h2>
+            <p class="para">| Therapy, education and assessment in Tirur, all under one roof</p>
 
             <div class="servicesCardContainer">
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services1.png);" role="img" aria-label="Child Development Unit"></div>
-                    <div class="child2">
-                        <p class="name "><span class="titleBold">Child Development</span> Unit </p>
-                        <p class="para ">Nurturing Potential, Shaping Futures: Child Development Unit</p>
-                    </div>
-                </div>
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services2.png);" role="img" aria-label="Adolescence and Youth Mental Health Unit"></div>
-                    <div class="child2">
-                        <p class="name "><span class="titleBold">Adolescence and Youth Mental Health</span> Unit </p>
-                        <p class="para ">Empowering Minds, Embracing Futures: Adolescence & Youth Mental Health Unit</p>
-                    </div>
-                </div>
 
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services5.png);" role="img" aria-label="Adult Mental Health Unit"></div>
-                    <div class="child2">
-                        <p class="name "><span class="titleBold">Adult Mental Health</span> Unit </p>
-                        <p class="para ">Embracing Wellness, Empowering Lives: Adult Mental Health Unit for Lasting Transformation</p>
+                <article class="serviceCard serviceCard--photo">
+                    <div class="serviceCardMedia">
+                        <img src="assets/programmes1.png" alt="Child's hands working with shape pieces during an occupational therapy activity" loading="lazy">
                     </div>
-                </div>
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services3.png);" role="img" aria-label="Occupational Therapy"></div>
-                    <div class="child2">
-                        <p class="name "><span class="titleBold">Occupatioanal</span> Therapy</p>
-                        <p class="para ">Unlocking Potential, Restoring Independence: Occupational Therapy for Brighter Lives</p>
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Therapy</p>
+                        <h3 class="serviceCardTitle"><a href="services/occupational-therapy.html">Occupational Therapy</a></h3>
+                        <p class="serviceCardWhat">Therapy that develops skills needed for everyday activities, learning and independence.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children and adults with developmental, neurological, sensory or functional difficulties.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To improve motor skills, coordination, sensory processing, attention and daily living skills.</dd>
+                                <dt>How</dt>
+                                <dd>Individualized activities, exercises, sensory-based interventions and functional training.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/occupational-therapy.html">More about Occupational Therapy</a>
                     </div>
-                </div>
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services4.png);" role="img" aria-label="Speech and Language Therapy"></div>
-                    <div class="child2">
-                        <p class="name"><span class="titleBold">Speech and Language</span> Therapy</p>
-                        <p class="para ">Finding Voices, Expressing Potential: Speech and Language Therapy for Communication Excellence</p>
+                </article>
+
+                <article class="serviceCard serviceCard--sun">
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Therapy</p>
+                        <h3 class="serviceCardTitle"><a href="services/speech-therapy.html">Speech Therapy</a></h3>
+                        <p class="serviceCardWhat">Therapy for speech, language, communication and related difficulties.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children and adults with speech delay, language difficulties, communication disorders and related conditions.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To improve communication, understanding, speech clarity and social communication.</dd>
+                                <dt>How</dt>
+                                <dd>Personalized speech and language activities, communication training and structured practice.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/speech-therapy.html">More about Speech Therapy</a>
                     </div>
-                </div>
-                
-                
-                <div class="servicesCard">
-                    <div class="child1" style="background-image: url(assets/services6.png);" role="img" aria-label="Other Outreach Programmes"></div>
-                    <div class="child2">
-                        <p class="name"><span class="titleBold">Other Outreach</span> Programmes</p>
-                        <ul>
-                            <li class="para">School and Community Programmes</li>
-                            <li class="para">Finishing School Porgramme</li>
-                            <li class="para">Enhancement</li>
-                            <li class="para">Premarital Workshop</li>
-                            <li class="para">Positive Parenting Workshop</li>
-                            <li class="para">LD Training Programme</li>
-                        </ul>
+                </article>
+
+                <article class="serviceCard serviceCard--sky">
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Therapy</p>
+                        <h3 class="serviceCardTitle"><a href="services/physiotherapy.html">Physiotherapy</a></h3>
+                        <p class="serviceCardWhat">Therapy to improve movement, strength, balance and physical function.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children and adults with neurological, developmental, orthopedic or physical difficulties.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To reduce movement difficulties, improve mobility and support physical independence.</dd>
+                                <dt>How</dt>
+                                <dd>Therapeutic exercises, mobility training, balance activities, strengthening and functional exercises.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/physiotherapy.html">More about Physiotherapy</a>
                     </div>
-                </div>
+                </article>
+
+                <article class="serviceCard serviceCard--mint">
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Child development</p>
+                        <h3 class="serviceCardTitle"><a href="services/developmental-integration-therapy.html">Developmental Integration Therapy</a></h3>
+                        <p class="serviceCardWhat">A structured approach that supports overall child development through meaningful activities.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children with developmental delays, learning difficulties, sensory challenges or developmental concerns.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To support motor, sensory, cognitive, emotional and functional development.</dd>
+                                <dt>How</dt>
+                                <dd>Individualized developmental activities designed around the child's abilities and needs.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/developmental-integration-therapy.html">More about Developmental Integration Therapy</a>
+                    </div>
+                </article>
+
+                <article class="serviceCard serviceCard--peach">
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Child development</p>
+                        <h3 class="serviceCardTitle"><a href="services/behavioral-therapy.html">Behavioral Therapy</a></h3>
+                        <p class="serviceCardWhat">Therapy that helps children develop positive behaviors and useful everyday skills.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children with autism, behavioral difficulties, developmental delays and related challenges.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To improve attention, communication, social skills, emotional regulation and adaptive behavior.</dd>
+                                <dt>How</dt>
+                                <dd>Structured activities, positive reinforcement, skill-building and individualized behavior strategies.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/behavioral-therapy.html">More about Behavioral Therapy</a>
+                    </div>
+                </article>
+
+                <article class="serviceCard serviceCard--photo">
+                    <div class="serviceCardMedia">
+                        <img src="assets/programmes2.png" alt="Child practising writing with one-to-one support" loading="lazy">
+                    </div>
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Learning support</p>
+                        <h3 class="serviceCardTitle"><a href="services/remedial-therapy.html">Remedial Therapy</a></h3>
+                        <p class="serviceCardWhat">Specialized support to improve academic and learning skills.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children with learning difficulties, academic delays and specific learning challenges.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To overcome difficulties in reading, writing, spelling, mathematics and learning.</dd>
+                                <dt>How</dt>
+                                <dd>Individualized teaching, structured practice, multisensory learning and skill-based activities.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/remedial-therapy.html">More about Remedial Therapy</a>
+                    </div>
+                </article>
+
+                <article class="serviceCard serviceCard--photo">
+                    <div class="serviceCardMedia">
+                        <img src="assets/service-special-education.jpg" alt="Children taking part in a classroom session at FreeWill" loading="lazy">
+                    </div>
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Learning support</p>
+                        <h3 class="serviceCardTitle"><a href="services/special-education.html">Special Education</a></h3>
+                        <p class="serviceCardWhat">Individualized educational support based on a child's learning needs and abilities.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children with developmental delays, learning difficulties, intellectual disabilities, autism and other special educational needs.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To help children learn effectively, develop independence and reach their potential.</dd>
+                                <dt>How</dt>
+                                <dd>Individualized learning plans, activity-based teaching, functional learning and continuous progress monitoring.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/special-education.html">More about Special Education</a>
+                    </div>
+                </article>
+
+                <article class="serviceCard serviceCard--photo">
+                    <div class="serviceCardMedia">
+                        <img src="assets/service-assessment.jpg" alt="A FreeWill professional meeting with a child and parent" loading="lazy">
+                    </div>
+                    <div class="serviceCardBody">
+                        <p class="serviceCardTag">Assessment</p>
+                        <h3 class="serviceCardTitle"><a href="services/iq-assessment-counselling.html">IQ Assessment &amp; Counselling</a></h3>
+                        <p class="serviceCardWhat">Professional assessment of cognitive abilities and guidance based on the child's needs.</p>
+                        <p class="serviceCardWho"><strong>For whom:</strong> Children and individuals who require cognitive, developmental or educational assessment.</p>
+                        <details class="serviceCardMore">
+                            <summary>Why &amp; how it helps</summary>
+                            <dl>
+                                <dt>Why</dt>
+                                <dd>To understand strengths, difficulties and learning needs and support appropriate planning.</dd>
+                                <dt>How</dt>
+                                <dd>Standardized assessment tools, interpretation of results and individualized counselling and recommendations.</dd>
+                            </dl>
+                        </details>
+                        <a class="serviceCardLink" href="services/iq-assessment-counselling.html">More about IQ Assessment &amp; Counselling</a>
+                    </div>
+                </article>
 
             </div>
 
@@ -307,8 +738,8 @@
     <!-- ------------TEAM_SECTION------------ -->
     <section id="team">
         <div class="teamContent content">
-            <p class="title primaryText">Our <span class="titleBold">Team</span></p>
-            <p class="para">| The legends behind the result!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Team</span></h2>
+            <p class="para">| Psychologists, therapists and specialists who work with your family</p>
 
 
             <div class="swiper-container-wrapper">
@@ -377,7 +808,7 @@
                             <div class="teamMember" style="background-image: url(assets/team8.png);" role="img" aria-label="Nidhuna P, Consultant Psychologist">
                                 <p class="name secondaryText"><span class="paraBold">Nidhuna</span> P</p>
                                 <p class="namePara titleBold secondaryText">Consultant Psychologist</p>
-                                <p class="nameDesig secondaryText">Expert in Behaviour Therapy, Individual Counselling , Remedial Therapy</p>
+                                <p class="nameDesig secondaryText">Expert in Behaviour Therapy, Individual Counselling, Remedial Therapy</p>
                             </div>
                         </div>
                         
@@ -393,7 +824,7 @@
                             <div class="teamMember" style="background-image: url(assets/team10.png);" role="img" aria-label="Rashida KV, Consultant Psychologist">
                                 <p class="name secondaryText"><span class="paraBold">Rashida</span> KV</p>
                                 <p class="namePara titleBold secondaryText">Consultant Psychologist</p>
-                                <p class="nameDesig secondaryText">Expert in Behavior therapy, child counselling,Remedial therapy</p>
+                                <p class="nameDesig secondaryText">Expert in Behaviour Therapy, Child Counselling, Remedial Therapy</p>
 
                             </div>
                         </div>
@@ -411,7 +842,7 @@
                             <div class="teamMember" style="background-image: url(assets/team12.png);" role="img" aria-label="Sahla Kunhapputty, Consultant Psychologist">
                                 <p class="name secondaryText"><span class="paraBold">Sahla</span> Kunhapputty</p>
                                 <p class="namePara titleBold secondaryText">Consultant Psychologist</p>
-                                <p class="nameDesig secondaryText">Expert in Behavioural Modification, Individual counselling,  Parental counselling,professional Training.</p>
+                                <p class="nameDesig secondaryText">Expert in Behavioural Modification, Individual Counselling, Parental Counselling, Professional Training</p>
 
                             </div>
                         </div>
@@ -419,7 +850,7 @@
                         <div class="swiper-slide" >
                             <div class="teamMember" style="background-image: url(assets/team16.png);" role="img" aria-label="Ummul Nisba AP, Clinical Psychologist">
                                 <p class="name secondaryText">Ummul <span class="paraBold">Nisba</span> AP</p>
-                                <p class="namePara titleBold secondaryText">Cliniacal Psychologist</p>
+                                <p class="namePara titleBold secondaryText">Clinical Psychologist</p>
                             </div>
                         </div>
                         
@@ -473,66 +904,58 @@
     <!-- ------------PROGRAMMES_SECTION------------ -->
     <section id="programmes">
         <div class="programmesCont content">
-            <p class="title primaryText">Our <span class="titleBold">Programmes</span></p>
-            <p class="para">| Programs that Inspire, Benefit and Result!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Programmes</span></h2>
+            <p class="para">| Beyond therapy sessions: for young children and for schools</p>
 
-            <div class="mainChild">
-                <div class="programme1 programme">
+            <div class="progList">
 
-                    <div class="child1">
-                        <img src="assets/programmes2.jpg" alt="Children at Play School program for special needs at FreeWill Advanced Centre">
+                <article class="prog">
+                    <figure class="progPhoto">
+                        <img src="assets/gallery-independence-day-celebration.jpg" alt="Young children in costume celebrating Independence Day at FreeWill, Tirur" loading="lazy" width="666" height="1000">
+                        <figcaption>Independence Day at FreeWill</figcaption>
+                    </figure>
+
+                    <div class="progBody">
+                        <p class="progFor">For children with special needs</p>
+                        <h3 class="progTitle">Play School</h3>
+                        <p class="progLead">A playschool in Tirur, Malappuram, designed for children with special needs, where every child learns at their own pace in a safe, inclusive setting.</p>
+                        <p class="progText">Teachers and therapists work together to address developmental, behavioural and physical challenges. Each child follows a personalised curriculum, and the day balances learning with socialising, play and exploration.</p>
+                        <ul class="progPoints">
+                            <li>A personalised curriculum for each child</li>
+                            <li>Teachers and therapists working as one team</li>
+                            <li>Learning through play, friendship and exploration</li>
+                        </ul>
+                        <div class="progActions">
+                            <a class="progBtn" href="#appointment">Schedule a visit</a>
+                            <a class="progCall" href="tel:+919562989090">or call 95629 89090</a>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="child2">
-                        <p class="title" style="color: white;"><span style="color: black;">Play</span> School</p>
-                        <p class="para">
-                            Welcome to our Playschool program, a nurturing haven designed exclusively for children with special needs. At our center, 
-                            we recognize and celebrate the uniqueness of every child, fostering an inclusive environment where they can flourish. Our 
-                            dedicated team of experienced professionals, including teachers and therapists, are adept at addressing various developmental, 
-                            behavioral, and physical challenges.
-                        </p>    
-                        <p class="para">
-                            With a personalized curriculum tailored to each child's requirements, we employ evidence-based methodologies to facilitate 
-                            learning and growth. Beyond academics, our program emphasizes socialization, play, and exploration—essential components for 
-                            young children's holistic development. If you have a child with special needs, we invite you to explore our Playschool, 
-                            schedule a tour, and embark on a transformative journey with us. Together, we will provide unwavering support for your 
-                            child's development and success, empowering them to reach their fullest potential.
-                        </p>
-                    </div>
-                    <div class="programmesBtn btn " onClick="document.getElementById('appointment').scrollIntoView();">
-                        <p class="name" >Book an Appointment >></p>
-                    </div>
+                <article class="prog prog--flip">
+                    <figure class="progPhoto">
+                        <img src="assets/gallery-mental-health-day-2022-panel.jpg" alt="Panel discussion on adolescent mental health at FreeWill's World Mental Health Day programme, Benchmark School, Tirur" loading="lazy" width="860" height="860">
+                        <figcaption>World Mental Health Day programme, Benchmark School, Tirur, 2022</figcaption>
+                    </figure>
 
-                </div>
-                
-                <div class="programme2 programme">
-
-                    <div class="child1">
-                        <img src="assets/programmes1.jpg" alt="Happy School mental health program for students in Tirur Municipality">
+                    <div class="progBody">
+                        <p class="progFor">For schools in Tirur Municipality</p>
+                        <h3 class="progTitle">Happy School</h3>
+                        <p class="progLead">A school mental health programme in Kerala, helping schools respond to rising stress, anxiety and depression among students since the COVID-19 pandemic.</p>
+                        <p class="progText">Through evidence-based interventions and personalised care, Happy School supports students' well-being and resilience, with the aim of better academic performance and a healthier school environment.</p>
+                        <ul class="progPoints">
+                            <li>Support for stress, anxiety and low mood</li>
+                            <li>Evidence-based interventions in schools</li>
+                            <li>A focus on resilience and well-being</li>
+                        </ul>
+                        <div class="progActions">
+                            <a class="progBtn" href="tel:+919562989090">Talk to us about your school</a>
+                            <a class="progCall" href="#appointment">or send an enquiry</a>
+                        </div>
                     </div>
+                </article>
 
-                    <div class="child2">
-                        <p class="title" style="color: white;"><span style="color: black;">Happy</span> School</p>
-                        <p class="para">
-                            Welcome to "Happy School," our transformative Mental Health and Rehabilitation Program tailored for school students in 
-                            Tirur Municipality. With a rising prevalence of stress, anxiety, and depression among students, exacerbated by the challenges 
-                            of the COVID-19 pandemic, our program aims to provide comprehensive support to address these pressing mental health issues.
-                        </p> 
-                        <p class="para">
-                            Freewill Advanced Centre for Mental Health and Rehabilitation is committed to empowering the next generation to thrive. 
-                            Through evidence-based interventions and personalized care, our envision improved academic performance and a healthier 
-                            school environment. Join us on this journey of fostering resilience and well-being, making a positive impact on the lives 
-                            of our future leaders.
-                        </p>
-                    </div>
-                    <div class="programmesBtn btn " onClick="document.getElementById('appointment').scrollIntoView();">
-                        <p class="name" >Book an Appointment >></p>
-                    </div>
-
-                </div>
             </div>
-
-
         </div>
     </section>
 
@@ -542,8 +965,8 @@
     <section id="gallery">
 
         <div class="galleryCont content">
-            <p class="title primaryText">Our <span class="titleBold">Gallery</span></p>
-            <p class="para">| Ride through the memories!</p>
+            <h2 class="title primaryText">Our <span class="titleBold">Gallery</span></h2>
+            <p class="para">| Camps, awareness programmes and celebrations at FreeWill</p>
 
             <div class="swiper-container-wrapper-2">
 
@@ -552,51 +975,51 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery1.png);" role="img" aria-label="FreeWill Advanced Centre gallery photo 1"></div>
+                            <img class="galleryPhoto" src="assets/gallery-mental-health-day-2022-speaker.jpg" alt="Speaker at FreeWill's Unarv 2022 World Mental Health Day programme on adolescent mental health, Benchmark School, Tirur" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery2.png);" role="img" aria-label="FreeWill Advanced Centre gallery photo 2"></div>
+                            <img class="galleryPhoto" src="assets/gallery-mental-health-day-2022-audience.jpg" alt="Audience at the Unarv 2022 World Mental Health Day awareness programme in Tirur" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery3.png);" role="img" aria-label="FreeWill Advanced Centre gallery photo 3"></div>
+                            <img class="galleryPhoto" src="assets/gallery-mental-health-day-2022-panel.jpg" alt="Panel discussion on challenges of adolescent mental health, World Mental Health Day 2022, Tirur" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery4.png);" role="img" aria-label="FreeWill Advanced Centre gallery photo 4"></div>
+                            <img class="galleryPhoto" src="assets/gallery-mental-health-day-2022-participants.jpg" alt="Participants at FreeWill's World Mental Health Day 2022 programme" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery5.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 5"></div>
+                            <img class="galleryPhoto" src="assets/gallery-psychology-department-induction-2023.jpg" alt="Poster for the psychology department induction with FreeWill consultant psychologists, August 2023" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery6.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 6"></div>
+                            <img class="galleryPhoto" src="assets/gallery-psychology-induction-session-perinthalmanna.jpg" alt="Psychology induction session in Perinthalmanna, Malappuram, held with FreeWill" loading="lazy" width="430" height="430">
                         </div>
 
                         <!-- <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery7.jpg);"></div>
+                            <img class="galleryPhoto" src="assets/gallery-learning-disability-camp-banner.jpg" alt="Banner for FreeWill's free learning disability assessment camp in Tirur" loading="lazy" width="430" height="430">
                         </div> -->
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery8.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 7"></div>
+                            <img class="galleryPhoto" src="assets/gallery-independence-day-celebration.jpg" alt="Children in costume celebrating Independence Day at FreeWill" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery9.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 8"></div>
+                            <img class="galleryPhoto" src="assets/gallery-onam-celebration.jpg" alt="Children in traditional dress around a pookalam during Onam celebrations at FreeWill" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery10.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 9"></div>
+                            <img class="galleryPhoto" src="assets/gallery-learning-assessment-camp-classroom.jpg" alt="Children taking part in a FreeWill learning assessment camp" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery11.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 10"></div>
+                            <img class="galleryPhoto" src="assets/gallery-learning-assessment-camp-session.jpg" alt="FreeWill team member assessing a child at the free learning disability camp" loading="lazy" width="430" height="430">
                         </div>
 
                         <div class="swiper-slide">
-                            <div class="galleryPhoto" style="background-image: url(assets/gallery12.jpg);" role="img" aria-label="FreeWill Advanced Centre gallery photo 11"></div>
+                            <img class="galleryPhoto" src="assets/gallery-learning-assessment-camp-parent-meeting.jpg" alt="FreeWill professional meeting a child and parent at a learning assessment camp" loading="lazy" width="430" height="430">
                         </div>
 
 
@@ -637,74 +1060,252 @@
         
     </section>
 
-    <!-- ----------APPOINTMENT_SECTION---------- -->
-    <section id="appointment">
-        <div class="content appointmentCont">
-            <p class="title primaryText">Book Your <span class="titleBold">Appointment</span></p>
-            <p class="para">| Lets talk and fix it!</p>
+    <!-- ------------FAQ_SECTION------------ -->
+    <section id="faq">
+        <div class="content faqCont">
 
-            <form class="form" id="appointment" action="https://formsubmit.co/freewillfoundationkerala@gmail.com" method="POST">
+            <div class="faqIntro">
+                <h2 class="title primaryText">Frequently Asked <span class="titleBold">Questions</span></h2>
+                <p class="para">| Answers for parents and families</p>
 
-                <input type="hidden" name="_next" value="https://fancy-monstera-5ebce6.netlify.app/thankyou.html">
-                <input type="hidden" name="_captcha" value="false">
-                
-                <div class="form-group primaryText para">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                
-                <div class="form-group primaryText para">
-                    <label for="fullName">Full Name</label>
-                    <input type="text" id="fullName" name="fullName" required>
-                </div>
-                
-                <div class="child-form">
-                    <div class="child-form-group primaryText para">
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="number" id="phoneNumber" name="phoneNumber" required>
-                    </div>
-                    <div class="child-form-group primaryText para">
-                        <label for="date">Appointment Date</label>
-                        <input type="date" id="date" name="date" required> 
+                <div class="faqHelp">
+                    <p class="faqHelpTitle">Still have a question?</p>
+                    <p class="faqHelpText">Every child is different. Talk to our team and we'll guide you on the right next step.</p>
+                    <div class="faqHelpActions">
+                        <a class="btn primaryBtn appnmntSimpleBtn" href="#appointment">
+                            <img src="assets/callcalling.png" alt="">
+                            <p class="para">Book an Assessment</p>
+                        </a>
+                        <a class="faqCall" href="tel:+919562989090">Call 95629 89090</a>
                     </div>
                 </div>
+            </div>
 
-                <input class="btn" type="submit">
-            </form> 
+            <div class="faqList">
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">01</span><span class="faqQ">My child is not speaking yet. Should I be concerned?</span></summary>
+                        <p class="faqA">Every child develops at their own pace, but delayed speech can sometimes indicate an underlying developmental difficulty. An early assessment can help identify the reason and guide appropriate intervention.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">02</span><span class="faqQ">When should I take my child for a developmental assessment?</span></summary>
+                        <p class="faqA">If you notice delays in speech, movement, learning, attention, social interaction, play or daily activities, it is better to seek an assessment early rather than wait.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">03</span><span class="faqQ">Does my child need therapy if they have a developmental delay?</span></summary>
+                        <p class="faqA">Therapy may help your child develop important skills and become more independent. The type and frequency of therapy depend on the child's individual needs.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">04</span><span class="faqQ">What are the early signs of autism?</span></summary>
+                        <p class="faqA">Possible signs include limited eye contact, delayed speech, reduced response to name, repetitive behaviors, difficulty with social interaction, unusual sensory responses or limited interest in social play. An assessment is needed for proper understanding.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">05</span><span class="faqQ">Can autism be treated?</span></summary>
+                        <p class="faqA">Autism is a neurodevelopmental condition, not an illness that can simply be "cured." However, early and individualized intervention can help children develop communication, social, behavioral, learning and daily living skills.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">06</span><span class="faqQ">My child understands everything but is not speaking. What should I do?</span></summary>
+                        <p class="faqA">Good understanding is encouraging, but delayed expressive speech still deserves attention. A speech and developmental assessment can help identify your child's communication needs.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">07</span><span class="faqQ">My child is very active and cannot sit or concentrate. Is it ADHD?</span></summary>
+                        <p class="faqA">High activity levels or difficulty concentrating do not automatically mean ADHD. A proper developmental assessment is needed to understand the cause.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">08</span><span class="faqQ">My child has difficulty writing, holding a pencil or using scissors. Can Occupational Therapy help?</span></summary>
+                        <p class="faqA">Yes. Occupational Therapy can work on fine motor skills, hand strength, coordination, visual-motor skills, handwriting and other skills needed for school and daily activities.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">09</span><span class="faqQ">My child has difficulty reading and writing. What can I do?</span></summary>
+                        <p class="faqA">Learning difficulties can have different causes. Assessment can help identify the child's specific difficulties, after which remedial therapy or special education can provide targeted support.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">10</span><span class="faqQ">Does my child need Speech Therapy only if they cannot speak?</span></summary>
+                        <p class="faqA">No. Speech Therapy can also help with language understanding, pronunciation, fluency, social communication, voice and other communication difficulties.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">11</span><span class="faqQ">How can I know which therapy my child needs?</span></summary>
+                        <p class="faqA">You do not have to decide this yourself. A professional assessment can help identify your child's strengths, difficulties and appropriate therapy needs.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">12</span><span class="faqQ">Can my child receive more than one type of therapy?</span></summary>
+                        <p class="faqA">Yes. Some children benefit from a combination of therapies such as Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Remedial Therapy or Special Education.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">13</span><span class="faqQ">Is early intervention really important?</span></summary>
+                        <p class="faqA">Yes. Identifying developmental difficulties early allows appropriate support to begin sooner and gives the child more opportunities to develop important skills.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">14</span><span class="faqQ">How often does my child need therapy?</span></summary>
+                        <p class="faqA">Therapy frequency depends on the child's needs, goals, age, condition and progress. The therapist will recommend an individualized schedule after assessment.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">15</span><span class="faqQ">Will parents be involved in the therapy process?</span></summary>
+                        <p class="faqA">Yes. Parent involvement is an important part of successful intervention. Therapists can guide parents on activities and strategies that can be continued at home.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">16</span><span class="faqQ">How long will my child&#x27;s therapy take?</span></summary>
+                        <p class="faqA">There is no fixed duration. Progress depends on the child's condition, individual needs, consistency of therapy and home support. Goals are reviewed regularly.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">17</span><span class="faqQ">Can therapy help my child become more independent?</span></summary>
+                        <p class="faqA">Yes. Therapy can focus on practical skills such as dressing, feeding, writing, communication, play, learning, mobility and other daily activities according to the child's needs.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">18</span><span class="faqQ">What should I bring for my child&#x27;s first assessment?</span></summary>
+                        <p class="faqA">Bring any previous medical or therapy reports, school records or assessment reports if available. Most importantly, share your concerns and observations about your child's development.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">19</span><span class="faqQ">Can I get an assessment even if my child has not been diagnosed with a condition?</span></summary>
+                        <p class="faqA">Yes. You do not need to have a diagnosis before seeking an assessment. Developmental concerns themselves are a valid reason to seek professional guidance.</p>
+                    </details>
+                    <details class="faqItem" name="faq">
+                        <summary><span class="faqNum">20</span><span class="faqQ">Where can I get child development and rehabilitation services in Tirur?</span></summary>
+                        <p class="faqA">Freewill Advanced Centre for Mental Health &amp; Rehabilitation provides multidisciplinary child development and rehabilitation services, including Occupational Therapy, Speech Therapy, Physiotherapy, Behavioral Therapy, Remedial Therapy and Special Education.</p>
+                    </details>
+            </div>
+
         </div>
     </section>
 
-    <!-- ----------FOOTER---------- -->
-    <footer>
-        <div class="footerLogo">
-            <img src="assets/logoZ.png" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo">
+    <!-- ----------APPOINTMENT_SECTION---------- -->
+    <section id="appointment">
+        <div class="content appointmentCont">
+            <h2 class="title primaryText">Book Your <span class="titleBold">Appointment</span></h2>
+            <p class="para">| Let's talk and find the right support!</p>
+
+            <div class="apptCard">
+
+                <figure class="apptPhoto">
+                    <img src="assets/appointment.jpg" alt="A FreeWill team member assessing a child at a learning assessment camp in Tirur" loading="lazy" width="1200" height="800">
+                    <figcaption>From one of our learning assessment camps</figcaption>
+                </figure>
+
+                <form class="apptForm" action="https://formsubmit.co/freewillfoundationkerala@gmail.com" method="POST">
+
+                    <input type="hidden" name="_next" value="https://freewillorg.com/thankyou.html">
+                    <input type="hidden" name="_subject" value="New appointment request - FreeWill website">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <h3 class="apptHeading">Request a call back</h3>
+                    <p class="apptIntro">Leave your details and a date that suits you. Someone from our team will call to confirm your appointment.</p>
+
+                    <div class="apptField">
+                        <label for="fullName">Your name</label>
+                        <input type="text" id="fullName" name="fullName" autocomplete="name" required>
+                    </div>
+
+                    <div class="apptRow">
+                        <div class="apptField">
+                            <label for="phoneNumber">Phone</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="tel" inputmode="tel" required>
+                        </div>
+                        <div class="apptField">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
+                        </div>
+                    </div>
+
+                    <div class="apptField">
+                        <label for="date">Preferred date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <button class="apptSubmit" type="submit">Send request</button>
+
+                    <p class="apptCallLine">Prefer to talk now? Call <a href="tel:+919562989090">95629 89090</a> or <a href="tel:+919562199090">95621 99090</a></p>
+                </form>
+
+            </div>
         </div>
+    </section>
 
-        <!-- ===== SEO: NAP (Name, Address, Phone) text block ===== -->
-        <p class="para" style="text-align:center; margin: 0.5rem 0;">
-            FreeWill Advanced Centre for Mental Health and Rehabilitation &middot; Near Railway Station, Near Mini Civil Station, Near Raihan Eye Hospital, Tirur, Kerala &middot;
-            <a href="tel:+919562989090" style="color:inherit;">9562989090</a> / <a href="tel:+919562199090" style="color:inherit;">9562199090</a> &middot; Est. 2015
-        </p>
+    <!-- ----------CONTACT_SECTION---------- -->
+    <section id="contact">
+        <div class="content contactCont">
+            <h2 class="title primaryText">Visit <span class="titleBold">Us</span></h2>
+            <p class="para">| FreeWill Advanced Centre, Tirur, Malappuram</p>
 
-        <nav>
-            <a href="#about" class="link">About</a>
-            <a href="#services" class="link">Service</a>
-            <a href="#team" class="link">Team</a>
-            <a href="#programmes" class="link">Programme</a>
-            <a href="#gallery" class="link">Gallery</a>           
-        </nav>
-        <button class="btn secondaryBtn appnmntSimpleBtn" onClick="document.getElementById('appointment').scrollIntoView();">
-            <img src="assets/callcallimgblack.png" alt="Book Appointment" >
-            <p class="para">Book an Appointment</p>
-        </button>
-    </footer>
+            <div class="contactGrid">
+                <address class="contactDetails">
+                    <div class="contactItem">
+                        <p class="contactLabel">Address</p>
+                        <p>FreeWill Advanced Centre for Mental Health and Rehabilitation<br>
+                        Near Railway Station, Near Mini Civil Station,<br>
+                        Near Raihan Eye Hospital, Tirur, Kerala</p>
+                    </div>
+                    <div class="contactItem">
+                        <p class="contactLabel">Phone</p>
+                        <p><a href="tel:+919562989090">95629 89090</a><br><a href="tel:+919562199090">95621 99090</a></p>
+                    </div>
+                    <!-- Opening hours: add here (and in the MedicalClinic structured data) once confirmed -->
+                    <div class="contactActions">
+                        <a class="btn primaryBtn appnmntSimpleBtn" href="tel:+919562989090">
+                            <img src="assets/callcalling.png" alt="">
+                            <p class="para">Call Now</p>
+                        </a>
+                        <a class="contactDirections" href="https://www.google.com/maps/search/?api=1&amp;query=FreeWill+Advanced+Centre+for+Mental+Health+and+Rehabilitation+Tirur" target="_blank" rel="noopener">Get directions on Google Maps</a>
+                    </div>
+                </address>
 
+                <div class="contactMap">
+                    <iframe title="Map showing FreeWill Advanced Centre, Tirur" src="https://maps.google.com/maps?q=FreeWill%20Advanced%20Centre%20for%20Mental%20Health%20and%20Rehabilitation%2C%20Tirur&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
     </main>
 
+    <!-- ----------FOOTER---------- -->
+    <footer>
+        <div class="footerInner">
+            <div class="footerBrand">
+                <div class="footerLogo">
+                    <img src="assets/logoZ.png" alt="FreeWill Advanced Centre for Mental Health and Rehabilitation logo" loading="lazy">
+                </div>
+                <!-- ===== SEO: NAP (Name, Address, Phone) ===== -->
+                <p>FreeWill Advanced Centre for Mental Health and Rehabilitation</p>
+                <p>Near Railway Station, Near Mini Civil Station, Near Raihan Eye Hospital, Tirur, Kerala</p>
+                <p><a href="tel:+919562989090">95629 89090</a> &middot; <a href="tel:+919562199090">95621 99090</a></p>
+                <p>Serving families in Tirur and Malappuram since 2015</p>
+            </div>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+            <nav class="footerCol" aria-label="Services">
+                <p class="footerHeading">Services</p>
+                <ul>
+                    <li><a href="services/occupational-therapy.html">Occupational Therapy</a></li>
+                    <li><a href="services/speech-therapy.html">Speech Therapy</a></li>
+                    <li><a href="services/physiotherapy.html">Physiotherapy</a></li>
+                    <li><a href="services/developmental-integration-therapy.html">Developmental Integration Therapy</a></li>
+                    <li><a href="services/behavioral-therapy.html">Behavioral Therapy</a></li>
+                    <li><a href="services/remedial-therapy.html">Remedial Therapy</a></li>
+                    <li><a href="services/special-education.html">Special Education</a></li>
+                    <li><a href="services/iq-assessment-counselling.html">IQ Assessment &amp; Counselling</a></li>
+                </ul>
+            </nav>
+
+            <nav class="footerCol" aria-label="Quick links">
+                <p class="footerHeading">Quick links</p>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#programmes">Programmes</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#appointment">Book an Appointment</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="footerBottom">&copy; FreeWill Advanced Centre for Mental Health and Rehabilitation, Tirur</p>
+    </footer>
+
+    <!-- mobile quick actions -->
+    <div class="mobileCallBar">
+        <a href="tel:+919562989090">Call Now</a>
+        <a href="#appointment">Book Appointment</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.4.1/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

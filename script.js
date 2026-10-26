@@ -1,22 +1,39 @@
-let menu = document.getElementsByClassName("menu")[0];
-let toggImg = document.getElementsByClassName("toggImg")[0];
-let links = document.getElementsByClassName("links")[0];
-let linksArray = document.querySelectorAll(".links .link");
-let linkBtn = document.querySelector(".links .linkBtn");
-let menuSrc;
+// -----------NAVIGATION----------
+const siteHeader = document.querySelector(".siteHeader");
+const menuBtn = document.querySelector(".menuBtn");
+const links = document.getElementById("navLinks");
+const navBackdrop = document.querySelector(".navBackdrop");
 
-const toggleFunc = () => {
-    links.classList.toggle("show");
-    menuSrc = links.classList.contains("show") ? "assets/close.svg" : "assets/menu.svg";
-    toggImg.src = menuSrc;    
+const setMenu = (open) => {
+    links.classList.toggle("show", open);
+    menuBtn.setAttribute("aria-expanded", open);
+    menuBtn.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    navBackdrop.hidden = !open;
+    document.body.classList.toggle("menuOpen", open);
 }
 
-menu.addEventListener("click",toggleFunc);
-
-linksArray.forEach((link,i) => {
-    link.addEventListener("click",toggleFunc);
+menuBtn.addEventListener("click", () => setMenu(!links.classList.contains("show")));
+navBackdrop.addEventListener("click", () => setMenu(false));
+links.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => setMenu(false)));
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && links.classList.contains("show")) setMenu(false);
 });
-linkBtn.addEventListener("click",toggleFunc);
+
+// shadow under the header once the page has scrolled
+const onScroll = () => siteHeader.classList.toggle("scrolled", window.scrollY > 10);
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+// highlight the nav link of the section currently on screen
+const navLinks = [...document.querySelectorAll('.links .link[href^="#"]')];
+const spySections = navLinks.map((link) => document.querySelector(link.getAttribute("href"))).filter(Boolean);
+const spy = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        navLinks.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === "#" + entry.target.id));
+    });
+}, { rootMargin: "-45% 0px -50% 0px" });
+spySections.forEach((section) => spy.observe(section));
 
 
 
@@ -26,7 +43,7 @@ const swiper = new Swiper("#swiper-1", {
         spaceBetween: 30,
         // centeredSlides:true,
         autoplay: {
-            delay: 1500, 
+            delay: 5000, 
             disableOnInteraction: false,
             stopOnLastSlide: false,
         },
@@ -84,3 +101,13 @@ const swiper3 = new Swiper("#gallery #swiper-3",{
     }
 });
 
+
+
+// -----------APPOINTMENT_FORM----------
+// don't allow booking a date in the past
+const apptDate = document.querySelector(".apptForm #date");
+if (apptDate) {
+    const today = new Date();
+    today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+    apptDate.min = today.toISOString().split("T")[0];
+}
